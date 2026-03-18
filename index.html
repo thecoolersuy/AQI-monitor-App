@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather-App</title>
-    <link rel="stylesheet" href= " style.css"
+    <link rel="stylesheet" href= "style.css">
 </head>
 <body>
-    <div class="weather-card">
-       <div class="info-input">
-           <input type="text" placeholder="Location" id="search">
-           <input type = "button" value="go" id ="button">
-       </div> 
-       <div class="display-weather">
-
-       </div>
-       
+     <form class="weather-data">
+        <input type = "text" class="cityName" placeholder="Enter your city name"/>
+        <input type ="submit" class="getWeather" value="Get weather"/>
+     </form>
+    <div class="displayWeatherCard">
     </div>
 </body>
+<script src="script.js"></script>
 </html>

@@ -1,38 +1,57 @@
 body{
-    background-color: #424242;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
+    padding-top:80px;
+    background-color:#424242
 }
 
-
-.weather-card{
-    
-    background-color: cyan;
-    width:400px;
-    height:500px;
-    border-radius:5px;
-}
-.info-input{
-    display: flex;
-    flex-direction: row;
-    gap:14px;
-    padding:30px;
-
-}
-
-#search{
+.cityName{
     width:260px;
     height:40px;
-    border:0px;
-    border-radius: 100px;
-    text-align: center;
-    color: cyan;
+    border:2px solid #a7a0a0;
+    border-radius: 8px;
+    text-align:center;
+    font-weight: 600;
+    font-size:15px;
 }
 
+.getWeather{
+    width:120px;
+    height:46px;
+    border:2px solid white;
+    border-radius: 8px;
+    text-align:center;
+    background-color: #eb841d;
+    font-weight: 600;
+    font-size:15px;
+    color:white;
+}
 
-#button{
-    width:42px;
-    height:42px;
-    border:0px;
-    border-radius: 50%;
+.displayWeatherCard{
+    background-color:linear-gradient(180deg, blue ,orange);
+    border-radius: 8px;
+    
+}
+
+.city{
+    font-size:40px;
+    text-align:center;
+    padding-top:60px;
+}
+
+.weather{
+    font-size:30px;
+    text-align:center;
+}
+
+.weatherInfo{
+     font-size:25px;
+    text-align:center;
+}
+
+.weatheremoji{
 
 }
